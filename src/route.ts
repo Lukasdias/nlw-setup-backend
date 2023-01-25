@@ -25,6 +25,8 @@ export async function appRoutes(app: FastifyInstance) {
         },
       },
     });
+
+    return habit;
   });
 
   app.get('/day', async (request) => {
